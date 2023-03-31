@@ -1,0 +1,212 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin-left: 5rem;
+    margin-top: 5rem;
+    
+    }
+    h1 {
+        text-align: center;
+    }
+    .table_data {
+        margin-left: 10rem;
+margin-right: 10rem;
+padding: 2rem;
+background: #ededf0;
+border-radius: 1rem;
+    }
+    
+    table {
+        
+        width:100%;
+        border-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+    }
+    
+    table th {
+        color: white;
+        background-color: black;
+    }
+    table td, th {
+        padding-left: 0.5rem;
+        border-bottom: 2px solid black;
+    
+    }
+    
+    table tr {
+        border-width: 1px;
+    }
+    
+    a.add{
+        text-align: center;
+        padding-top: 0.7rem;
+        display: block;
+        width:5rem;
+        height:1.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dodgerblue;
+        font-weight: bold;
+        color:white;
+        border-radius: 0.5rem;
+       border-color: dodgerblue;
+       margin-bottom: 1rem;
+       text-decoration: none;
+     
+    }
+    
+    a.add:hover {
+        background-color:cornflowerblue;
+        cursor: pointer;
+    }
+    
+    a.edit {
+        display: inline-block;
+        text-align: center;
+        background-color: dodgerblue;
+        color: white;
+        font-weight: bold;
+        width: 3rem;   
+        height:1.5rem;
+        border-radius: 0.5rem;
+        border-color: dodgerblue;
+        text-decoration: none;
+        padding-top:0.4rem;
+    }
+    a.edit:hover {
+        background-color:cornflowerblue;
+        cursor: pointer;
+    }
+    
+    .delete {
+        margin-left: 0.2rem;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 0.95rem;
+        width: 4rem;   
+        height:1.8rem;
+        border-radius: 0.5rem;
+        background-color: firebrick;
+        border-color: firebrick;
+    }
+    .delete:hover{
+        background-color:rgb(231, 97, 93);
+        cursor: pointer;
+    }
+    table{
+        width:100%;
+    }
+    
+    table td.action{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-left:0;
+ 
+    }
+    
+    form.add_form {
+        display: inline-grid;
+        align-items: center;
+        width: 70vw;
+        justify-content: center;
+    }
+
+    div.addNewInfo{
+        display: grid;
+       justify-content: center;
+        width: 100vw;
+
+    }
+
+    div.text_box {
+        margin: 0.7rem;
+        text-align: right;
+    }
+
+    form label{
+        display: inline-grid;
+        text-align: right;
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+        grid-template-columns: auto auto;
+    }
+
+   .inputText {
+        width:15rem;
+        height:1.3rem;
+        font-size: 1rem;
+    }
+
+    .saveBtn{
+        margin-left:6.5rem;
+        text-align: center;
+        display: block;
+        width:6rem;
+        height:1.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dodgerblue;
+        font-weight: bold;
+        color:white;
+        border-radius: 0.5rem;
+       border-color: dodgerblue;
+       margin-bottom: 1rem;
+       text-decoration: none;
+       font-size: 1rem;
+     
+    }
+    .saveBtn:hover {
+        background-color:cornflowerblue;
+        cursor: pointer;
+    }
+
+    div.saveCancel {
+        display: inline-flex;
+    }
+
+    .cancelBtn{
+        text-align: center;
+        margin-left: 1rem;
+        padding-top: 0.2rem;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        width: 7rem;   
+        height:1.5rem;
+        border-radius: 0.5rem;
+        background-color: firebrick;
+        border-color: firebrick;
+    }
+
+    .cancelBtn:hover{
+        background-color:rgb(231, 97, 93);
+        cursor: pointer;
+    }
+
+    .notif_Success {
+        width: 90vw;
+        text-align: center;
+        display: grid;
+        margin-left: 6rem;
+        background-color: #a3eca3;
+        font-size: x-large;
+        font-weight: bold;
+        grid-template-columns: 96% 4%;
+      }
+
+
+      .close {
+        background-color:  #a3eca3;
+        border-style: ridge;
+font-weight: bold;
+font-size: inherit;
+      }
+
+      .close:hover {
+        background-color: #b7cfb7;
+        cursor: pointer;
+      }
